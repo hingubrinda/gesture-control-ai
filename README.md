@@ -21,17 +21,12 @@ OpenCV
 MediaPipe
 NumPy
 
- Installation
-git clone https://github.com/your-username/gesture-control-ai.git
-cd gesture-control-ai
-pip install -r requirements.txt
-▶ run the Project
-python app/main.py
 
  Gestures
-
 palm detected = screenshot 
+
 thumbs up = volume up 
+
 thumbs down = volume down 
 
  Future Improvements
