@@ -21,21 +21,6 @@ OpenCV
 MediaPipe
 NumPy
 
- Project Structure
-gesture control ai/
-│
-├── app/
-│   ├── main.py
-│   ├── gestures.py
-│   ├── actions.py
-│   └── utils.py
-│
-├── assets/
-├── screenshots/
-├── requirements.txt
-├── README.md
-└── .gitignore
-
  Installation
 git clone https://github.com/your-username/gesture-control-ai.git
 cd gesture-control-ai
