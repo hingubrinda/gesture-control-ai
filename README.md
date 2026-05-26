@@ -1,42 +1,84 @@
-project name - Gesture Control AI
-A real-time computer vision system that uses hand gestures to control computer actions using a webcam.
+# ✋ GESTURE CONTROL AI  
+### Real-time Hand Gesture Recognition System for Computer Control
 
-Features
-Real-time hand tracking using computer vision
-Gesture recognition (open hand, thumbs up , thumbs down, etc.)
-Trigger system actions using gestures
-Modular architecture (clean separation of logic)
-Works in real-time via webcam
+---
 
-How It Works
-Captures live video from webcam
-Detects hand landmarks
-Interprets finger positions as gestures
-Maps gestures to system actions
-Executes actions instantly
+## 🚀 Overview
 
-Tech Stack
-Python
-OpenCV
-MediaPipe
-NumPy
+Gesture Control AI is a real-time computer vision project that enables hands-free interaction with a computer using hand gestures detected via webcam.
+
+It uses **MediaPipe** for hand landmark detection and **OpenCV** for video processing to interpret gestures and map them to system actions.
+
+---
+
+## ⚡ Key Features
+
+- Real-time webcam-based hand tracking  
+- 21-point hand landmark detection  
+- Gesture recognition system  
+- System action mapping (click, scroll, idle, etc.)  
+- Lightweight and runs in real-time  
+- Modular and clean architecture  
+
+---
+
+## 🎥 Demo
+
+👉 Watch full working demo:  
+[https://drive.google.com/file/d/1f0W-ab4nvRO-LnbHNlcmk0KUbNLAtoge/view?usp=sharing](https://drive.google.com/file/d/1f0W-ab4nvRO-LnbHNlcmk0KUbNLAtoge/view?usp=sharing)
+
+---
+
+## 🧠 How It Works
+
+Webcam → Hand Detection → Landmark Tracking → Gesture Recognition → Action Execution
+
+1. Captures live video using webcam  
+2. Detects hand using MediaPipe  
+3. Extracts finger landmark positions  
+4. Identifies gesture based on finger configuration  
+5. Triggers mapped system action  
+
+---
+
+## 🛠️ Tech Stack
+
+- Python  
+- OpenCV  
+- MediaPipe  
+- NumPy  
+- PyAutoGUI  
 
 
- Gestures
-palm detected = screenshot 
 
+▶️ Run Project
+python app/main.py
+Make sure your webcam is enabled.
+
+✋ Supported Gestures
+Gesture	Action
+open palm = screenshot 
 thumbs up = volume up 
-
 thumbs down = volume down 
 
- Future Improvements
-Add more gestures
-Improve accuracy with ML model
-Add GUI overlay
-System-wide mouse control
+🔮 Future Improvements
+Add more gesture types
+Improve accuracy using ML model
+Add GUI overlay system
+Full mouse & keyboard control
+Gesture customization panel
 
- License
-This project is not licensed for reuse, modification, or redistribution without permission.
+📌 Highlights
+Real-time processing
+Computer vision based control
+Works completely offline
+Lightweight and efficient
+Beginner-friendly architecture
 
-Author
-brinda hingu
+📜 License
+This project is not licensed for reuse or redistribution without permission.
+
+👨‍💻 Author
+Brinda Hingu
+GitHub: https://github.com/hingubrinda
+
